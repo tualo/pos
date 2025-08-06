@@ -1,5 +1,12 @@
 delimiter;
 
+
+create table if not exists sumup_environment(
+     id varchar(36) not null   primary key,
+     val longtext not null
+);
+insert ignore into sumup_environment values ('affiliateKey', 'sup_afk_uZymWcMnJvilCMGpZKxoFg9sXoyBMQpk');
+
 create table if not exists dsfinvk_steuern(
      id integer not null default 1 primary key
 );

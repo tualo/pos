@@ -16,5 +16,6 @@ class Aliases implements IRoute
         Route::alias('/pos/ds/(?P<tablename>\w+)/read', '/ds/(?P<tablename>\w+)/read');
         Route::alias('/pos/registerclient', '/registerclient');
         Route::alias('/pos/tse/information/(?P<terminalid>[\w\-\_]+)', '/fiskaly/information/(?P<terminalid>[\w\-\_]+)');
+        Route::alias('/pos/tse/createclient/(?P<terminalid>[\w\-\_]+)', '/fiskaly/createClient/(?P<terminalid>[\w\-\_]+)');
     }
 }
