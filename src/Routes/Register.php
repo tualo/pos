@@ -8,7 +8,7 @@ use Tualo\Office\Basic\IRoute;
 use Ramsey\Uuid\Uuid;
 
 
-class Register implements IRoute
+class Register extends \Tualo\Office\Basic\RouteWrapper
 {
     public static function register()
     {
